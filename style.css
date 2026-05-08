@@ -18,8 +18,20 @@ header {
 }
 
 .card {
-    background-color: #D9D9D9;
     color: black
+}
+
+.poster {
+    background-color: #D9D9D9;
+}
+
+.name {
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+.rating {
+    background-color: #D9D9D9;
 }
 
 .star {
@@ -31,15 +43,7 @@ footer {
     background-color: #D9D9D9;
 }
 
-.review_1st {
+.review {
     background-color: #D9D9D9;
-    margin: 0 1vw
-}
-
-.review_2st {
-    background-color: #D9D9D9;
-}
-
-.name {
-    text-align: center;
+    margin: 0 2vw
 }
