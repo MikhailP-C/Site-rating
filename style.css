@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+git add index.html style.css@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
 body {
     margin: 0;
@@ -30,12 +30,18 @@ header {
     text-align: center;
 }
 
+.ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .rating {
     background-color: #D9D9D9;
 }
 
 .star {
-    width: 10%;
+    width: 15%;
 }
 
 footer {
