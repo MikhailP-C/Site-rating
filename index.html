@@ -4,54 +4,57 @@
       <meta charset="UTF-8">
       <title>Document</title>
       <link rel="stylesheet" href="style.css">
-      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />  
   </head>
   <body>
       <header>
           <p> <img src=""> Name of the site </p>
       </header>
       <main>
-          <div class="cards_line" id="cline"> <!-- карточки -->
-            <div class="card"> 
-              <p class="poster"> <img src="https://cdn.ananasposter.ru/image/cache/catalog/poster/film/76/35795-1000x830.jpg" class="soprano"> </p> <!-- The Soprano -->
-              <p class="name"> Клан Сопрано </p>
-              <div class="ratings"> 
-                <div class="rating_imdb">  <img src="https://cdn-icons-png.flaticon.com/128/929/929495.png" class="star"> <span> 9.2/10 </span> </div> <!-- imdb -->
-                <div class="rating_rt"> <span> 96% попкорна </span> </div> <!-- rt -->
-              </div> 
+        <div class="swiper">
+          <div class="swiper-wrapper"> <!-- карточки -->
+            <div class="swiper-slide">
+              <div class="card"> 
+                <p class="poster"> <img src="https://cdn.ananasposter.ru/image/cache/catalog/poster/film/76/35795-1000x830.jpg" class="soprano"> </p> <!-- The Soprano -->
+                <p class="name"> Клан Сопрано </p>
+                <div class="ratings"> 
+                  <div class="rating_imdb">  <img src="https://cdn-icons-png.flaticon.com/128/929/929495.png" class="star"> <span> 9.2/10 </span> </div> <!-- imdb -->
+                  <div class="rating_rt"> <span> 96% попкорна </span> </div> <!-- rt -->
+                </div>
+              </div>
             </div>
-            <div class="card">
-              <p class="poster"> <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fb35416f-3b0d-4b96-bc65-cf6923f9e329/220x330" class="br_bad"> </p> <!-- Breaking Bad -->
-              <p class="name"> Во все тяжкие </p> 
-              <div class="ratings">
-                <div class="rating_imdb">  <img src="https://cdn-icons-png.flaticon.com/128/929/929495.png" class="star"> <span> 9.5/10 </span> </div>  <!-- imdb -->
-                <div class="rating_rt"> <span> 97% попкорна </span> </div> <!-- rt -->
-              </div> 
+            <div class="swiper-slide">
+              <div class="card">
+                <p class="poster"> <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1900788/fb35416f-3b0d-4b96-bc65-cf6923f9e329/220x330" class="br_bad"> </p> <!-- Breaking Bad -->
+                <p class="name"> Во все тяжкие </p> 
+                <div class="ratings">
+                  <div class="rating_imdb">  <img src="https://cdn-icons-png.flaticon.com/128/929/929495.png" class="star"> <span> 9.5/10 </span> </div>  <!-- imdb -->
+                  <div class="rating_rt"> <span> 97% попкорна </span> </div> <!-- rt -->
+                </div> 
+              </div>
             </div>
-            <div class="card">
-              <p class="poster"> <img src="https://upload.wikimedia.org/wikipedia/ru/9/9d/Matrix-DVD.jpg" class="matrix"> </p> <!-- The Matrix -->
-              <p class="name"> Матрица </p>
-              <div class="ratings">
-                <div class="rating_imdb">  <img src="https://cdn-icons-png.flaticon.com/128/929/929495.png" class="star"> <span> 8.7/10 </span> </div> <!-- imdb -->
-                <div class="rating_rt"> <span> 85% попкорна </span> </div> <!-- rt -->
-              </div> 
+            <div class="swiper-slide">
+              <div class="card">
+                <p class="poster"> <img src="https://upload.wikimedia.org/wikipedia/ru/9/9d/Matrix-DVD.jpg" class="matrix"> </p> <!-- The Matrix -->
+                <p class="name"> Матрица </p>
+                <div class="ratings">
+                  <div class="rating_imdb">  <img src="https://cdn-icons-png.flaticon.com/128/929/929495.png" class="star"> <span> 8.7/10 </span> </div> <!-- imdb -->
+                  <div class="rating_rt"> <span> 85% попкорна </span> </div> <!-- rt -->
+                </div> 
+              </div>
             </div>
           </div>
-          <div class="review">
-            <p>  </p> <!-- имя пользователя -->
-            <p>  </p> <!-- текст отзыва -->
-          </div> <!-- отзывы -->
-      </main>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </main> 
       <footer>
           <div>
             <p> LINK </p>
           </div>  <!-- ссылки на соцсети -->
       </footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
       <script src="script.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/jаvascript"></script>
-      <script src="js/jquery-ui-1.8.23.custom.min.js" type="text/jаvascript"></script>
-      <script src="js/jquery.mousewheel.min.js" type="text/jаvascript"></script>
-      <script src="js/jquery.kinetic.js" type="text/jаvascript"></script>
-      <script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/jаvascript"></script>
   </body>
 </html>
