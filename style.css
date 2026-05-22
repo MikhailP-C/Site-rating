@@ -11,14 +11,6 @@ header {
     background-color: #D9D9D9;
 }
 
-.cards_line {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 3vw;
-    margin: 0 2vw
-}
-
 .card {
     color: black;
     text-align: center;
@@ -66,14 +58,6 @@ footer {
     margin: 0 2vw
 }
 
-.soprano {
-    width:110%;
-}
-
-.matrix {
-    width: 105%;
-}
-
-.br_bad {
-    width: 100%;
+.soprano, .s_th, .matrix, .br_bad, .wd {
+    width:150%;
 }
